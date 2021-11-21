@@ -16,10 +16,9 @@
         <script>
           function download_source()
           {
-            var download_web = confirm("다운로드 웹페이지로 연결하시겠습니까? 웹페이지(GitHub)");
+            var download_web = confirm("다운로드 웹페이지로 연결하시겠습니까? 웹페이지(GitHub)\n권한이 있어야 접근 가능 합니다. (Private)\n권한이 없을시 404에러 떠요.");
             if (download_web)
             {
-            alert("브런치에서 날자 선택해서 다운 받으세요.")
             location.replace("https://github.com/123sunny1/unity-storeFarm")
             }
             else
