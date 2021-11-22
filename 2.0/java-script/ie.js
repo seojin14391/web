@@ -11,5 +11,5 @@ else
 return 0; //It is not IE
 }
 if (GetIEVersion() > 0)
-alert("IE " + GetIEVersion() + " 로 감지 되었습니다. chrome 브라우저 이용을 권장합니다.");
+alert("IE " + GetIEVersion() + " 로 감지 되었습니다. chrome 브라우저 이용을 권장합니다.\n인터넷 익스플로어는 마이크로소프트도 버렸습니다.\n핸드폰, 태블릿 사용도 좋습니다.");
 GetIEVersion();
